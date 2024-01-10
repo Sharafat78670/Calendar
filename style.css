@@ -1,0 +1,54 @@
+
+.year{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+.month{  
+   display: block;
+   background-color: aquamarine;
+   justify-content: center;
+   border-radius: 20px;
+   box-shadow: 0 0 7px 3px rgb(144, 144, 234);
+  
+}
+.month-name{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+.month-date{
+    display:grid;
+    grid-template-columns: repeat(7, 50px);
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px 25px 10px;
+    text-align: center;
+    /* margin: 20px; */
+}
+
+.date{
+    text-align: center;
+    color: aliceblue;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2em;
+}
+.day{
+    text-align: center;
+    font-size: 25px;
+    gap: 5px;
+}
+#calender{
+    color: blue;
+    text-align: center;
+    /* padding: 30px; */
+    font-size:100px;
+}
+.date:hover{
+    background-color: rgb(10, 181, 254);
+    color: black;
+   
+}
