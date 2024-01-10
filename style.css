@@ -50,5 +50,14 @@
 .date:hover{
     background-color: rgb(10, 181, 254);
     color: black;
-   
+}
+abbr{
+    text-decoration: none;
+    background-color: brown;
+}
+@media screen and (max-width:515px) {
+    .year{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+    }
 }
